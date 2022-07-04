@@ -5,7 +5,7 @@ body {
 
 header {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 #top-banner {
@@ -18,14 +18,19 @@ h1 {
     font-size: 50px;
 }
 
-.colorful-name {
+h2 {
+    font-size: 35px;
+}
+
+.colorful-text {
     color: orange;
 }
 
 .half-width {
     width: 50%;
     margin-top: 20px;
-    padding-left: 70px;
+    padding-left: 5%;
+    padding-right: 1%;
 }
 
 .half-width img {
@@ -37,6 +42,7 @@ h1 {
     text-decoration: none;
     padding: 10px 15px;
     color: white;
+    border-radius: 5px;
 }
 
 .dream-big {
@@ -44,4 +50,33 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    margin-bottom: 100px;
+}
+
+.experience-card {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.designed-box {
+    box-shadow: 10px 10px 20px gray;
+    border-left: 8px solid rgb(0, 50, 212);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 8px;
+}
+
+.orange-border {
+    border-left: 8px solid orange;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
 }
